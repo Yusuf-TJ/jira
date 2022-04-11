@@ -1,5 +1,6 @@
 from contextlib import contextmanager
 from typing import Iterator
+
 from jira.resources import Board
 from tests.conftest import JiraTestCase, rndstr
 

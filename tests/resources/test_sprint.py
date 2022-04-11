@@ -1,7 +1,8 @@
-from typing import Iterator, Tuple
-from tests.conftest import JiraTestCase, rndstr
-from jira.resources import Board, Filter, Sprint
 from contextlib import contextmanager
+from typing import Iterator, Tuple
+
+from jira.resources import Board, Filter, Sprint
+from tests.conftest import JiraTestCase, rndstr
 
 
 class SprintTests(JiraTestCase):
